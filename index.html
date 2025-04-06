@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      :root {
+        --color-link: #4e80ee;
+        --color-background: #f8fafc;
+        --color-border: #d2d5da;
+        --color-text: #030616;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="px-6">
+      <hgroup class="text-center py-18">
+        <h1 class="text-4xl/11 tracking-wide font-semibold">
+          Frequently Asked Questions
+        </h1>
+        <p class="mt-4 leading-5">
+          Browse through the most frequently asked questions
+        </p>
+      </hgroup>
+    </header>
+    <main class="bg-[var(--color-background)] py-8 px-9">
+      <section class="py-10 max-w-2xl mx-auto">
+        <h2 class="text-2xl font-semibold">How can I track my order?</h2>
+        <p class="mt-6 leading-5">
+          You can track your order using the following steps
+        </p>
+        <ol class="list-decimal leading-8 pl-6 mt-6">
+          <li>
+            Go to the Order
+            <a class="underline text-[var(--color-link)]" href="#"
+              >Tracking page</a
+            >.
+          </li>
+          <li>Enter your order number and email address.</li>
+          <li>
+            Click on the Track Order button to view the current status of your
+            shipment.
+          </li>
+        </ol>
+        <p class="mt-6 leading-5">
+          If you encounter any issues, please visit our
+          <a class="underline text-[var(--color-link)]" href="#">Help Center</a
+          >.
+        </p>
+      </section>
+      <section
+        class="border-[var(--color-border)] border-t-1 py-10 max-w-2xl mx-auto"
+      >
+        <h2 class="text-2xl font-semibold">What is your return policy?</h2>
+        <p class="mt-6 leading-5">
+          We offer a 30-day return policy on most items. Here are some key
+          points
+        </p>
+        <ul class="list-disc leading-8 pl-6 mt-6 mr-6">
+          <li>
+            <b>Items must be in original condition</b>: Unworn, unused, and
+            unwashed.
+          </li>
+          <li>
+            <b>Include original packaging and tags</b>: All items should be
+            returned with their original packaging and tags.
+          </li>
+          <li>
+            <b>Proof of purchase</b>: A receipt or proof of purchase is
+            required.
+          </li>
+        </ul>
+        <p class="mt-6 leading-5">
+          For more detailed information, read our full
+          <a class="underline text-[var(--color-link)]" h href="#"
+            >Return Policy</a
+          >.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
